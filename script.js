@@ -91,7 +91,7 @@ function hitungKeliling(sisi){
     return keliling;
 }
 
-let kelilingPersegi = hitungKeliling(5);
+let kelilingPersegi = hitungKeliling(8);
 console.log("Keliling dari persegi = " + kelilingPersegi);
 
 
