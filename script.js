@@ -72,22 +72,27 @@ while(angka <= 25){
 
 // DO WHILE
 /**
- * case : looping tulisan "Saya MSIB di Infine Learning"
+ * case : looping tulisan "Saya MSIB di Infinite Learning"
  */
 let number = 1;
 
 do {
-    console.log(number + " Saya MSIB di Infine Learning");
+    console.log(number + " Saya MSIB di Infinite Learning");
     number++;
 } while (number <= 5);
 
 
 // FUNCTION
 /**
- * case : 
+ * case : Hitung keliling persegi
  */
+function hitungKeliling(sisi){
+    let keliling = 4 * sisi;
+    return keliling;
+}
 
-
+let kelilingPersegi = hitungKeliling(5);
+console.log("Keliling dari persegi = " + kelilingPersegi);
 
 
 // SWITCH CASE
